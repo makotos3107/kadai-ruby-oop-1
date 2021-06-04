@@ -17,15 +17,15 @@ class Team
   end
 end
 
-Giants = Team.new(name:'Giants', win:67, lose:45, draw:8)
-Tigers = Team.new(name:'Tigers', win:60, lose:53, draw:7)
-Dragons = Team.new(name:'Dragons', win:60, lose:55, draw:5)
-BayStars = Team.new(name:'BayStars', win:56, lose:58, draw:6)
-Carp = Team.new(name:'Carp', win:52, lose:56, draw:12)
-Swallows = Team.new(name:'Swallows', win:41, lose:69, draw:10)
-Giants.show_team_result
-Tigers.show_team_result
-Dragons.show_team_result
-BayStars.show_team_result
-Carp.show_team_result
-Swallows.show_team_result
+giants = Team.new(name:'Giants', win:67, lose:45, draw:8)
+tigers = Team.new(name:'Tigers', win:60, lose:53, draw:7)
+dragons = Team.new(name:'Dragons', win:60, lose:55, draw:5)
+bayStars = Team.new(name:'BayStars', win:56, lose:58, draw:6)
+carp = Team.new(name:'Carp', win:52, lose:56, draw:12)
+swallows = Team.new(name:'Swallows', win:41, lose:69, draw:10)
+giants.show_team_result
+tigers.show_team_result
+dragons.show_team_result
+bayStars.show_team_result
+carp.show_team_result
+swallows.show_team_result
